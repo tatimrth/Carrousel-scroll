@@ -4,6 +4,8 @@
 
 * node.js
 * express.js
+* bootstrap
+* jQuery
 
 ## Use
 
