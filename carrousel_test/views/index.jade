@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div(class="container")
+    h1="carrousel"
+    section(class="logos slider")
+      each image in data
+        div(class="slide")
+          img(src=image.image, alt=image.name)
+  
