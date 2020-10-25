@@ -12,9 +12,12 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 50%;
 }
 
+.logos {
+  margin-top: 20%;
+}
 .slick-side {
   margin: 0px 20px;
 }
@@ -104,7 +107,10 @@ img {
 }
 .slick-slide.slick-loading img
 {
-    display: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
 }
 .slick-slide.dragging img
 {
