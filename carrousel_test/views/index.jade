@@ -3,7 +3,7 @@ extends layout
 block content
   div(class="container")
     h1="Carrousel Logos"
-    section(class="logos slider")
+    section(class="logos slider" dir="rtl")
       each image in data
         div(class="slide")
           img(src=image.image, alt=image.name)
