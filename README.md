@@ -1,5 +1,7 @@
 # Test-Front-Kinomap
 
+Realise a carrousel that allows to display brand images in automatic scrolling by recovering the images thanks to the API available on the following adress: 
+http://62.210.247.201:9000/test
 
 ## Frameworks
 
